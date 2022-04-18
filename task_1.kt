@@ -3,8 +3,8 @@ fun main(args: Array<String>) {
     	val trains = mapOf(
             '0' to mutableListOf("Bandra Tarminus Palitana Superfast Express ", "Surat", "Palitana", "21:30"),
             '1' to mutableListOf("Andhra Pradesh Express", "New Delhi", "Andhra Pradesh", "02:10"),
-    		'2' to mutableListOf("Surat To Cochin", "Surat", "Cochin", "15:00),
-        '3' to mutableListOf("MUMBAI CENTRAL - JAIPUR SF Express", "Surat", "Jaipur", "10:00),
+    		'2' to mutableListOf("Surat To Cochin", "Surat", "Cochin", "15:00"),
+        '3' to mutableListOf("MUMBAI CENTRAL - JAIPUR SF Express", "Surat", "Jaipur", "10:00"),
         )
                 
        	val getIndex: Int = when(args[0]) {

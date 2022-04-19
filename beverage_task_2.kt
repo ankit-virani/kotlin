@@ -77,7 +77,7 @@ fun main(args: Array<String>) {
     
     val type = when (args[0]) {
         "1"  -> "Tea"
-        "2"  -> "Coffe"
+        "2"  -> "Coffee"
         else -> "Something diff"
     }
     

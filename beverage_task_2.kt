@@ -14,7 +14,7 @@ interface IngredientsInterface {
    
    fun made()
    
-   fun ready()
+   fun readyBeverages()
 
 }
 
@@ -43,7 +43,7 @@ abstract class Ingredients(val type: String): IngredientsInterface {
        println("${type} Bag added")
    }
    
-   override fun ready(){
+   override fun readyBeverages(){
       println("${type} Ready! Enjoy")
    }
    
@@ -58,7 +58,7 @@ abstract class Ingredients(val type: String): IngredientsInterface {
      cleanPot()
      getMixture()
      addIngredients()
-     ready()
+     readyBeverages()
      
  }
  
@@ -77,7 +77,7 @@ fun main(args: Array<String>) {
     
     val type = when (args[0]) {
         "1"  -> "Tea"
-        "2"  -> "Coffee"
+        "2"  -> "Coffe"
         else -> "Something diff"
     }
     

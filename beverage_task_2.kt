@@ -20,7 +20,7 @@ interface IngredientsInterface {
 
 
 
-open class Ingredients(val type: String): IngredientsInterface {
+abstract class Ingredients(val type: String): IngredientsInterface {
     
    override fun cleanPot() {
        println("Cleaning ${type} pot...")

@@ -75,9 +75,9 @@ class Beverages(type: String):Ingredients(type) {
 
 fun main(args: Array<String>) {
     
-    val type = when (1) {
-        1  -> "Tea"
-        2  -> "Coffe"
+    val type = when (args[0]) {
+        "1"  -> "Tea"
+        "2"  -> "Coffe"
         else -> "Something diff"
     }
     
